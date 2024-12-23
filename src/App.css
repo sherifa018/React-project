@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.parent-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-image: url("movie-background-collage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+}
+.img:hover {
+  transform: scale(1.2);
+  transition: 0.3s all;
+}
+.card-con {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.whole-card {
+  gap: 10px;
+  margin: 10px;
+  overflow: hidden;
+}
+.title {
+  color: white;
+  font-family: serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+.Search-engine {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+  width: 100%;
+}
+.search-input-btn {
+}
+
+.search-btn {
+  display: inline !important;
+  cursor: zoom-in;
+  border-radius: 10px;
+  padding: 5px;
+}
+.input {
+  border-radius: 15px;
+  padding: 10px;
+}
